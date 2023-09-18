@@ -1,2 +1,2 @@
-1//Ile h trwa pelny obrot ziemi?//A.24//B.12//C.365//D.10
-2//Ile h trwa pelny obrot ziemi?//A.24//B.12//C.365//D.10
+1//Ile h trwa pelny obrot ziemi?//24//12//365//10
+2//Ile h trwa pelny obrot ziemi?//24//12//365//10
