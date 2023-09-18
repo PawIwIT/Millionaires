@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-
+        FileHandler fileHandler = new FileHandler();
 
         Scanner scanner = new Scanner(System.in);
 
@@ -25,7 +25,7 @@ public class Main {
             int userChoice = scanner.nextInt();
             ;
             switch (userChoice) {
-                case 1 -> Questions.showQuestion();
+                case 1 -> FileHandler.showQuestion();
                 case 2 -> System.out.println("");
                 case 3 -> continueGame = false;
             }
