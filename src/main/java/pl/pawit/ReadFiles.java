@@ -21,10 +21,12 @@ public class ReadFiles {
             for (int i = 0; i < listOfWords.size() - 1; i++) {
                 String[] wordsInQuestions = listOfWords.get(i).split("//");
                 for (int j = 0; j < wordsInQuestions.length; j++) {
+                    //pusta petla ?
                 }
                 System.out.println(Arrays.toString(wordsInQuestions));
             }
         } catch (IndexOutOfBoundsException e) {
+            //jak dodajesz block catch to on nigdy nie powinien byc pusty - na poczatek zawsze mozesz dac chocaz sout z info ze wyskoczyl blad i cos poszlo nietak
         }
     }
 
