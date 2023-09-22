@@ -18,15 +18,18 @@ public class Main {
         boolean continueGame = true;
         while (continueGame) {
             System.out.println("1.Start the game");
-            System.out.println("2.Skorzystaj z kola ratunkowego");
+            System.out.println("2.Choice Lifebuoy");
             System.out.println("3.End the game");
             continueGame = false;
 
             int userChoice = scanner.nextInt();
             ;
             switch (userChoice) {
-                case 1 -> FileHandler.showQuestion();
-                case 2 -> System.out.println("");
+                case 1 -> {
+                    ReadFiles.readQuestionsFromFile();
+                    AnswerHandler.getAnswerFromUser();
+                }
+                case 2 -> System.out.println(ReadFiles.readAnswerFromFile());
                 case 3 -> continueGame = false;
             }
         }
